@@ -26,10 +26,10 @@ const Jobdetails = () => {
         <>
             <div className='Jobdetails'>
                 <div className='job-det1'>
-                    <p><strong>Job Description:</strong>{job_description}</p>
-                    <p><strong>Job Responsibility:</strong>{job_responsibility}</p>
-                    <p><strong>Educational Requirements:</strong>{educational_requirements}</p>
-                    <p><strong>Experiences:</strong>{experiences}</p>
+                    <p><strong>Job Description : </strong>{job_description}</p>
+                    <p><strong>Job Responsibility :</strong>{job_responsibility}</p>
+                    <p><strong>Educational Requirements :</strong>{educational_requirements}</p>
+                    <p><strong>Experiences : </strong>{experiences}</p>
                 </div>
                 <div className='job-det2'>
                     <h1>Job Details</h1>
