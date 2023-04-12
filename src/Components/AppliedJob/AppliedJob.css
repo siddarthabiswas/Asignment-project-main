@@ -1,0 +1,52 @@
+.Jobdetails {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 80px;
+    height: 70vh;
+    width: 100%;
+    line-height: 38px;
+    font-size: 18px;
+}
+
+.job-det1 {
+    width: 70%;
+    padding: 10px;
+    font-family: 'Manrope';
+    font-style: normal;
+    color: #1A1919;
+}
+
+
+.job-det2 {
+    width: 30%;
+    padding: 10px;
+    line-height: 41px;
+
+}
+
+.job-det2 h1 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    color: #1A1919;
+    margin: 10px 0px;
+
+}
+
+.butnn {
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+.butnn:hover {
+    background-color: #222222;
+    color: white;
+    transition: all .2s linear;
+}
+

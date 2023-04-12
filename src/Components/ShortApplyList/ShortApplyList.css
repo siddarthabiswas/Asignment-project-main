@@ -1,0 +1,37 @@
+.apply_job-list {
+    padding: 30px;
+    width: 70%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    border: 1px solid #f3dcff;
+    line-height: 30px;
+    flex-wrap: wrap;
+
+}
+
+.icons__job img {
+    width: 100%;
+    padding: 20px;
+}
+
+.total {
+    background-image: url('../Images/Capture.PNG');
+    background-color: red;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30vh;
+    width: 100%;
+}
+
+.View___Details {
+    padding: 15px 18px;
+    width: 157px;
+    height: 57px;
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border-radius: 4px;
+    color: white;
+}
