@@ -1,9 +1,7 @@
 import React from 'react';
 
 const Blog = () => {
-    const styl = {
-        
-    }
+   
     return (
         <div style={{width:'100%' , display:'flex' , alignItems:'center' , justifyContent:'center' , flexWrap:'wrap' , height:'100vh' , }}>
             <div className='mx-5'>
