@@ -13,6 +13,7 @@ import Applyjob from './Components/Applyjob/Applyjob';
 import AppliedJob from './Components/AppliedJob/AppliedJob';
 import FutureJob from './Components/FutureJob/FutureJob';
 import Chat from './Components/Chat/Chat';
+import ErrorPage from './Components/ErrorPage/ErrorPage';
 
 
 function App() {
@@ -28,7 +29,7 @@ function App() {
         <Route path='/appliedJob' element={<AppliedJob></AppliedJob>}></Route>
         <Route path='/apply' element={<FutureJob></FutureJob>}></Route>
         <Route path='/static' element={<Chat></Chat>}></Route>
-        <Route path='*' element={<Error></Error>}></Route>
+        <Route path='*' element={<ErrorPage></ErrorPage>}></Route>
       </Routes>
     </BrowserRouter>
   )
